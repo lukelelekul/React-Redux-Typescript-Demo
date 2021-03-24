@@ -1,0 +1,3 @@
+[submodule "src/dsm"]
+	path = src/dsm
+	url = git@github.com:lukelelekul/react-design-system.git
