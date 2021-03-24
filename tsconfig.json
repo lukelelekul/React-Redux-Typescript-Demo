@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "target": "es2020",
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "outDir": "dist",
+    "removeComments": true,
+    "lib": ["es2020", "dom"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": ["src/**/*", "types"],
+  "exclude": ["node_modules", "dist", "*/__test__/**/*"]
+}
