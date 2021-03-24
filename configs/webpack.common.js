@@ -8,6 +8,12 @@ module.exports = {
 
   resolve: {
     modules: ['node_modules', path.join(__dirname, 'src')],
+    alias: {
+      '@dsm': path.resolve(__dirname, '../src/dsm'),
+      '@models': path.resolve(__dirname, '../src/models'),
+      '@redux': path.resolve(__dirname, '../src/redux'),
+      '@components': path.resolve(__dirname, '../src/components'),
+    },
     extensions: ['.ts', '.tsx', '.js', '.scss'],
   },
 

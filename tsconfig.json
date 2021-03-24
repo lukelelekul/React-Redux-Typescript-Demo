@@ -9,8 +9,16 @@
     "lib": ["es2020", "dom"],
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@dsm": ["src/dsm"],
+      "@models": ["src/models"],
+      "@redux": ["src/redux"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"]
+    }
   },
   "include": ["src/**/*", "types"],
-  "exclude": ["node_modules", "dist", "*/__test__/**/*"]
+  "exclude": ["node_modules", "src/dsm", "dist", "*/__test__/**/*"]
 }

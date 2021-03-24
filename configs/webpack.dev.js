@@ -25,6 +25,7 @@ module.exports = merge(common, {
       fix: true,
       exclude: [
         'src/**/*.scss',
+        'src/redux/types.ts',
       ],
     }),
   ],
