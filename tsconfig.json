@@ -15,6 +15,7 @@
       "@dsm": ["src/dsm"],
       "@models": ["src/models"],
       "@redux": ["src/redux"],
+      "@redux/*": ["src/redux/*"],
       "@components": ["src/components"],
       "@components/*": ["src/components/*"]
     }

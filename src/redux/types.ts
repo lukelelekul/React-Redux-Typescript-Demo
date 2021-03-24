@@ -1,5 +1,8 @@
 export enum ActionType {
   Message_Info = 'demo/message/INFO',
+  Message_Warn = 'demo/message/WARN',
+  Message_Error = 'demo/message/ERROR',
+  Message_Dismiss = 'demo/message/DISMISS',
 }
 
 export interface Action<T extends ActionType> {
