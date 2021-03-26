@@ -23,17 +23,14 @@ module.exports = merge(common, {
     new ESLintPlugin({
       files: 'src/**/*',
       fix: true,
-      exclude: [
-        'src/**/*.scss',
-        'src/redux/types.ts',
-      ],
+      exclude: ['src/**/*.scss', 'src/redux/types.ts'],
     }),
   ],
 
   devtool: 'eval-cheap-module-source-map',
 
   devServer: {
-    port: 3000,
+    port: 4000,
     host: '0.0.0.0',
     hot: true,
     contentBase: '../dist',
