@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Redux from '@components/Redux';
 import Component from '@components/Component';
+import Hooks from '@components/Hooks';
 import { NotFound } from '@components/common';
 
 const Router: FC = () => {
@@ -11,6 +12,7 @@ const Router: FC = () => {
       <Route exact path="/" component={Redux} />
       <Route exact path="/redux" component={Redux} />
       <Route exact path="/component" component={Component} />
+      <Route exact path="/hooks" component={Hooks} />
       <Route component={NotFound} />
     </Switch>
   );
